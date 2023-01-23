@@ -3,7 +3,7 @@
   "publisher": "relm4",
   "displayName": "Relm4 Snippets",
   "description": "Relm4 code snippets",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "images/Relm_logo.png",
   "engines": {
     "vscode": "^1.74.0"
