@@ -99,6 +99,7 @@
         "description": "Relm4 Component Widget",
         "body": [
             "use relm4::{gtk, component::{AsyncComponent, AsyncComponentParts}, AsyncComponentSender};",
+            "",
             "pub struct AsyncComponentModel {}",
             "",
             "#[derive(Debug)]",
