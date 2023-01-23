@@ -2,7 +2,7 @@
 
 This extension for Visual Studio Code adds snippets for Relm4.
 
-![Usage](images/usage.gif)
+![Usage](https://github.com/Relm4/vscode-relm4-snippets/blob/main/images/usage.gif?raw=true)
 
 # Dependencies
 - nodejs
