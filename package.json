@@ -1,13 +1,34 @@
 {
   "name": "relm4-snippets",
+  "publisher": "Relm4 Team",
   "displayName": "Relm4 Snippets",
   "description": "Relm4 code snippets",
   "version": "0.0.1",
+  "icon": "images/Relm_logo.png",
   "engines": {
     "vscode": "^1.74.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Relm4/vscode-relm4-snippets.git"
+  },
+  "keywords": [
+    "Relm",
+    "Relm4",
+    "GTK",
+    "Adwaita",
+    "Libadwaita",
+    "Rust"
+  ],
+  "scripts": {
+    "package": "npx vsce package",
+    "publish": "npx vsce publish",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
+  },
   "categories": [
-    "Snippets"
+    "Snippets",
+    "Other"
   ],
   "contributes": {
     "snippets": [
