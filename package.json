@@ -13,7 +13,19 @@
     "snippets": [
       {
         "language": "rust",
-        "path": "./snippets/components/components.json"
+        "path": "./snippets/components.json"
+      },
+      {
+        "language": "rust",
+        "path": "./snippets/factories.json"
+      },
+      {
+        "language": "rust",
+        "path": "./snippets/templates.json"
+      },
+      {
+        "language": "rust",
+        "path": "./snippets/workers.json"
       }
     ]
   }
